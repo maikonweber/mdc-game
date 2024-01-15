@@ -1,6 +1,6 @@
 const Footer = () => {
     return (
-      <footer className="bg-black text-white p-8">
+      <footer className="bg-gradient-to-r from-cyan-500 to-blue-900 text-white p-8">
         <div className="container mx-auto flex justify-between">
           <div>
             <h2 className="text-lg font-bold mb-4">Informações de Contato</h2>
@@ -8,7 +8,6 @@ const Footer = () => {
             {/* <p>Telefone: (11) 98694-3182 </p> */}
             {/* <p>Endereço: Rua Exemplo, 123 - Cidade, Estado</p> */}
           </div>
-  
           <div>
             {/* Integre seu mapa aqui usando a API do Google Maps */}
             {/* Substitua 'YOUR_GOOGLE_MAPS_API_KEY' pela sua chave de API */}
