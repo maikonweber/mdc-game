@@ -5,9 +5,9 @@ const Header = () => {
         <header className="bg-gradient-to-r from-cyan-500 to-blue-900 p-4">
             <div className="container flex h-72px">
                 <div className="text-white text-2xl mr-5 p-1">
-                    <Image src={'/rename2.png'} width={62} height={55} ></Image>
+                    <Image src={'/rename2.png'} width={42} height={22} ></Image>
                 </div>
-                <div className="text-gray-900 text-2xl font-blod mr-1 mt-3 sm:block"> MadCloud </div>
+                <div className="text-gray-900 text-2xl font-blod mr-2 mt-3 sm:block"> MadCloud </div>
                 <div className="text-gray-300 text-2xl mt-3 sm:block"> GAMES </div>
                 {/* Navigation Links */}
 
