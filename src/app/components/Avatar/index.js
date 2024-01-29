@@ -1,12 +1,40 @@
 import Image from "next/image"
 
 const AvatarCompoent = () => {
+    const arrayAvatar = [{
+        url : "https://avatars.githubusercontent.com/maikonweber",
+        class: "Develop"
+    }
+]
+
     return (
-        <div class="bg-white p-4 rounded-full shadow-md">
-        {/* <Image class="rounded-full w-20 h-20" src="your_avatar_image_url.jpg" alt="Avatar Image"/> */}
-        <div class="mt-2 text-center">
-            <h2 class="text-lg font-semibold">John Doe</h2>
+        <div class="flex bg-white p-2 w-6/12 bg-gradient-to-r from-white to-blue-200 rounded-full shadow-md">
+        <div>
+        <Image class="rounded-full ml-5 w-20 h-20" width={100} height={100} src="https://avatars.githubusercontent.com/maikonweber" alt="Avatar Image"/> 
+        <h2 class="text-sm text-center ml-2 font-semibold"> Develop </h2>
         </div>
+       <div>
+        <Image class="rounded-full ml-5 w-20 h-20" width={100} height={100} src="https://avatars.githubusercontent.com/chegos" alt="Avatar Image"/> 
+        <h2 class="text-sm text-center ml-2 font-semibold"> Develop </h2>
+        </div>
+        <div>
+        <Image class="rounded-full ml-5 w-20 h-20" width={100} height={100} src="https://avatars.githubusercontent.com/fbatisteti" alt="Avatar Image"/> 
+        <h2 class="text-sm text-center ml-2 font-semibold"> Develop </h2>
+        </div>
+        <div>
+        <Image class="rounded-full ml-5 w-20 h-20" width={100} height={100} src="https://avatars.githubusercontent.com/PedroSchene" alt="Avatar Image"/> 
+        <h2 class="text-sm text-center ml-2 font-semibold"> Develop </h2>
+        </div>
+        <div>
+        <Image class="rounded-full ml-5 w-20 h-20" width={100} height={100} src="https://avatars.githubusercontent.com/paulodinizlima" alt="Avatar Image"/> 
+        <h2 class="text-sm text-center ml-2 font-semibold"> Develop </h2>
+        </div>
+        <div>
+        <Image class="rounded-full ml-5 w-20 h-20" width={100} height={100} src="https://avatars.githubusercontent.com/FogacaDev" alt="Avatar Image"/> 
+        <h2 class="text-sm text-center ml-2 font-semibold"> Develop </h2>
+        </div>
+        
+        
     </div>
     )
 }
