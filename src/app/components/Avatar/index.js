@@ -23,6 +23,8 @@ const AvatarCompoent = () => {
         <Image class="rounded-full ml-5 w-7 h-7 md:w-20 md:h-20" width={50} height={50} src="https://avatars.githubusercontent.com/FogacaDev" alt="Avatar Image"/>         </div>
         <div>
         <Image class="rounded-full ml-5 w-7 h-7 md:w-20 md:h-20" width={50} height={50} src="https://avatars.githubusercontent.com/rlucascc" alt="Avatar Image"/>         </div>
+        <div>
+        <Image class="rounded-full ml-5 w-7 h-7 md:w-20 md:h-20" width={50} height={50} src="https://avatars.githubusercontent.com/lucaspetean" alt="Avatar Image"/>         </div>
         
         
     </div>
