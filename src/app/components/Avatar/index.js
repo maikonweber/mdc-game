@@ -11,7 +11,7 @@ const AvatarCompoent = () => {
 
 
     return (
-        <Link href="/new-page">
+        <Link href="/team">
             <div className="flex bg-white p-2 w-fit bg-gradient-to-r from-white to-blue-200 rounded-full shadow-md" >
                 <h1> TEAM </h1>
             </div>
